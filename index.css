@@ -10,18 +10,39 @@
 table,
 tr,
 td {
-    border: 1px solid white;
+    border-color: white;
     border-collapse: collapse;
     text-align: center;
     padding-bottom: 2px;
+
+
+}
+
+td {
+    font-family: Arial Narrow;
+    font-size: 17px;
+    padding: 4px;
 }
 
 tr:nth-child(even) {
     background-color: rgb(243, 241, 241);
 }
-textarea
-{
-width:750px;
-height:100px;
+
+textarea {
+    width: 700px;
+    height: 100px;
 }
 
+body {
+    background-color: black;
+}
+
+tr:first-child,
+td:first-child {
+    border-radius: 10px 0 0 10px;
+}
+
+tr:last-child,
+td:last-child {
+    border-radius: 0 10px 10px 0;
+}
