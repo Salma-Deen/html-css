@@ -1,12 +1,20 @@
+/* Whole body is set to black color */
+body {
+    background-color: black;
+}
+
+/* The symbol "*" is set to red color using class name "main" */
 .main {
     color: red;
 }
 
+/* the symbol "star" is set to a particular color */
 .color {
     color: rgb(237, 173, 116);
 
 }
 
+/* Created table with invisible rows */
 table,
 tr,
 td {
@@ -14,29 +22,27 @@ td {
     border-collapse: collapse;
     text-align: center;
     padding-bottom: 2px;
-
-
 }
 
+/* setting font family and font size for the data in the table */
 td {
     font-family: Arial Narrow;
     font-size: 17px;
     padding: 4px;
 }
 
+/* Aligning a color even rows using nth-child property */
 tr:nth-child(even) {
     background-color: rgb(243, 241, 241);
 }
 
+/* Textarea in the bottom has been created */
 textarea {
     width: 700px;
     height: 100px;
 }
 
-body {
-    background-color: black;
-}
-
+/* setting rounded-border for the cells */
 tr:first-child,
 td:first-child {
     border-radius: 10px 0 0 10px;
